@@ -1,0 +1,49 @@
+/* feedbackDisplayPage.css */
+
+.feedback-display-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #59595a;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedback-item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Optional: Apply some spacing between the name, email, and message */
+  .feedback-item > strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Optional: Add a bit of color to the border and text */
+  .feedback-item {
+    border-color: #ddd;
+    color: #333;
+  }
+  
+  /* Optional: Add a slight hover effect on the feedback items */
+  .feedback-item:hover {
+    background-color: #f8f8f8;
+  }
+  

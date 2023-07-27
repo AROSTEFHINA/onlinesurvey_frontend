@@ -1,0 +1,66 @@
+/* ShowRadio.css */
+
+.saami {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #151516;
+  }
+  
+  .question-container {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #989da1;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #a1a4a8;
+  }
+  
+  .epa {
+    margin-top: 30px;
+  }
+  

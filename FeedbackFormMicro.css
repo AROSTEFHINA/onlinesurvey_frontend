@@ -1,0 +1,67 @@
+/* feedbackFormMicro.css */
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #3b3d3f;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #646566;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #5e5f61;
+  }
+  
+  /* Styling for the ToastContainer */
+  /* Here, we are using the "dark" theme provided by react-toastify */
+  /* You can customize the toast appearance further if needed */
+  .Toastify__toast--dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .Toastify__progress-bar {
+    background-color: #007bff;
+  }
+  
